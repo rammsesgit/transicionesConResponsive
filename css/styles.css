@@ -1,0 +1,112 @@
+body{
+    background: #46B289;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #F9F9FA;
+    font-size: 70px;
+    background: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+.contenedor{
+    border: 18px solid #FFFFFF;
+    background: #000000;
+    border-radius: 15px;
+    max-width: 640px;
+    margin-bottom: 20px;
+}
+img{
+    max-width: 100%;
+    margin-top: 0;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+
+@media screen and (max-width: 900px){
+    body{
+        background: #0D1B2A;
+    }    
+    p{
+        color: #E72A4F;
+        font-size: 60px;
+        background: #464655;
+        font-family: 'Pangolin', cursive;
+    }
+    .contenedor{
+        border: 16px solid #00171F;
+        background: #464655;
+    }
+    img{
+        opacity: 0;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media screen and (max-width: 750px){
+    body{
+        background: #1B263B;   
+    }    
+    p{
+        color: #CDCECF;
+        font-size: 50px;
+        background: #2E6171;
+        font-family: 'Bubbler One', sans-serif;
+    }
+    .contenedor{
+        border: 14px solid #003459;
+        background: #2E6171;
+    }
+    img{
+        opacity: 1;
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        background: #415A77;
+    }    
+    p{
+        color: #1A1A20;
+        font-size: 40px;
+        background: #D8CBC7;
+        font-family: 'Indie Flower', cursive;
+    }
+    .contenedor{
+        border: 12px solid #007EA7;
+        background: #D8CBC7;
+    }
+    img{
+        opacity: 0;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media screen and (max-width: 450px){
+    body{
+        background: #E0E1DD;
+    }    
+    p{
+        color: #2E7632;
+        font-size: 30px;
+        background: #FFFFFF;
+        font-family: 'Lobster', cursive;
+    }
+    .contenedor{
+        border: 10px solid #00A8E8;
+        background: #FFFFFF;
+    }
+    img{
+        opacity: 1;  
+        transform: rotate(-360deg);
+    }
+}
